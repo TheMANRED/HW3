@@ -189,11 +189,11 @@ print(lst_to_sort)
 
 # 23
 print("#23")
-# list_A = [2, 3, 4]
-# list_B = [5, 6, 7]
-#
-# list_A = list(map(lambda x: x + 3 , list_A))
-# print(list_A)
+list_A = [2, 3, 4]
+list_B = [5, 6, 7]
+
+list_A = list(map(lambda x: x + 3 , list_A))
+print(list_A)
 
 # 24
 print("#24")
@@ -203,11 +203,7 @@ print(lst_24)
 
 # 25
 print("#25")
-b = range(-10, 10)
-lst_25 = []
-for num in b:
-    if num < 0:
-        lst_25.append(num)
+lst_25 = list(filter(lambda num: num < 0, range(-10, 10)))
 print(lst_25)
 
 # 26
