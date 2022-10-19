@@ -206,7 +206,7 @@ print("#25")
 lst_25 = list(filter(lambda num: num < 0, range(-10, 10)))
 print(lst_25)
 
-# 26
+# 26 1
 print("#26")
 
 
@@ -224,3 +224,11 @@ def myfunc(lst_1, lst_2):
 list_1 = [1, 2, 3, 5, 7, 9]
 list_2 = [2, 3, 5, 6, 7, 8]
 print(myfunc(list_1, list_2))
+
+#26 2
+
+list_1 = [1, 2, 3, 5, 7, 9]
+list_2 = [2, 3, 5, 6, 7, 8]
+
+list_1 = list(filter(lambda elem: elem == elem in list_2, list_1))
+print(list_1)
