@@ -191,8 +191,7 @@ print(lst_to_sort)
 print("#23")
 list_A = [2, 3, 4]
 list_B = [5, 6, 7]
-
-list_A = list(map(lambda x: x + 3 , list_A))
+list_A = list(map(lambda x, y: x ** y, list_A, list_B))
 print(list_A)
 
 # 24
