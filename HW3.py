@@ -54,7 +54,7 @@ print("Anna has {0:5} apples and {1:3} peaches.".format(a, p))
 
 # 9
 print("#9")
-print(f"Anna has {a} apples and {p} peaches.".format(a, p))
+print(f"Anna has {a} apples and {p} peaches.")
 
 # 10
 print("#10")
